@@ -16,7 +16,8 @@ Database: <em><strong>Firebase</strong></em> <br>
 ![Bilgileri Güncelle2](https://user-images.githubusercontent.com/119736588/236699702-37633a55-f0d9-435b-b03d-7d7bc471c157.jpg)
 ![Bilgileri Güncelle](https://user-images.githubusercontent.com/119736588/236699706-41f58d78-5df8-4b47-b9d9-69b4508ec8f6.jpg)
 ![duyuruOlustur](https://user-images.githubusercontent.com/119736588/236699714-6ef83a64-049e-49a5-8e81-ca1dcb84fc75.jpg)
-![duyurular](https://user-images.githubusercontent.com/119736588/236699719-088d3d6e-392e-4dac-a3e9-0654be7382d8.jpg)
+![1e228093-2930-4b22-ab91-663567e67597](https://user-images.githubusercontent.com/119736588/236699807-2eac9024-6110-439a-aa3e-6b7b14d8dc9d.jpg)
+
 ![Mezunlar](https://user-images.githubusercontent.com/119736588/236699722-84211029-edc0-4012-be47-7cca3b99053c.jpg)
 ![KullaniciBilgileri](https://user-images.githubusercontent.com/119736588/236699728-de5b2a18-c3dd-43bc-b74c-5ca8ba432c0f.jpg)
 
