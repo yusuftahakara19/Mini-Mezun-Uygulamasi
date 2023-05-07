@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextDuyuru"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:hint="." />
+    <Button
+        android:id="@+id/btnDuyuruOlustur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDuyuru"
+        android:text="Duyuru Oluştur"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDuyurular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnDuyuruOlustur" />
+
+
+
+</RelativeLayout>

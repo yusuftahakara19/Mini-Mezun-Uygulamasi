@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188015555189",
+    "project_id": "mezun-uygulamasi-fb59f",
+    "storage_bucket": "mezun-uygulamasi-fb59f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188015555189:android:9d43bfe0e1d49010cf7e3c",
+        "android_client_info": {
+          "package_name": "com.yusuf.mezunuygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188015555189-937emc4t29s8crpt9p6klpm3lqhchauv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7lJvo27RjqmJW7BJL8Wg16Ir6ptmzfYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188015555189-937emc4t29s8crpt9p6klpm3lqhchauv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

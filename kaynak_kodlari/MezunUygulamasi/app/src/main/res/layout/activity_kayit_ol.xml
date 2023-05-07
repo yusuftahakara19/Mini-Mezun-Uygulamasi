@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_profile_photo"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                 />
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ad"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyad"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_entry_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Giriş Yılı"
+                android:inputType="number"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_graduation_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mezun Yılı"
+                android:inputType="number"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-posta"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/et_egitim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Eğitim (Lisans, Yüksek Lisans, Doktora)"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+            <EditText
+                android:id="@+id/et_guncelIs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Güncel İş Bilgileri (Ülke/ Şehir/ Firma)"
+                android:inputType="text"
+                android:minHeight="48dp"
+                />
+
+            <EditText
+                android:id="@+id/telefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon Numarası"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+
+            <TextView
+                android:id="@+id/tv_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Fotoğraf Seç" />
+
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Kayıt Ol" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

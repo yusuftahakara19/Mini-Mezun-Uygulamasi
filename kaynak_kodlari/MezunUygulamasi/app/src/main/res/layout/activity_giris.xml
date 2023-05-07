@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Profile photo image view -->
+    <ImageView
+        android:id="@+id/profile_photo_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <!-- User's name and surname text view -->
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/profile_photo_iv"
+        android:text="Kullanıcın Adı Soyadı"
+        android:textSize="20sp" />
+
+    <!-- Mezunlar button -->
+    <Button
+        android:id="@+id/mezunlar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:text="Mezunlar"
+        android:textSize="18sp" />
+
+    <!-- Duyurular button -->
+    <Button
+        android:id="@+id/duyurular_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mezunlar_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Duyurular"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/guncelle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duyurular_btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Bilgilerini Güncelle"
+        android:textSize="18sp" />
+
+</RelativeLayout>
